@@ -58,8 +58,8 @@ public class Main {
         usuario.setCorreoElrctronico("Kiry042417@email.es");
         usuario.setContraseña("Zappatos096");
         solucion.setUsuario(usuario);
-        //Mandamos todo a imprimir
         
+        //Mandamos todo a imprimir
         System.out.println(solucion.getNombre());
         System.out.println("Autor: "+solucion.getUsuario().getNombre());
         System.out.println("El nivel de dificultad es: "+solucion.getDificultad());
